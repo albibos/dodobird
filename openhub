@@ -1,0 +1,1377 @@
+-- leaving this open source for people to see the original scripts, have fun w/ this :>! (also the obfus i use stopped working)
+
+
+
+local dodohubopensource = Instance.new("ScreenGui")
+
+
+local main = Instance.new("Frame")
+
+
+local name = Instance.new("TextLabel")
+
+
+local gameamount = Instance.new("TextLabel")
+
+
+local scriptselection = Instance.new("ScrollingFrame")
+
+
+local petsimx = Instance.new("ImageButton")
+
+
+local TextLabel = Instance.new("TextLabel")
+
+
+local UICorner = Instance.new("UICorner")
+
+
+local bloxfruits = Instance.new("ImageButton")
+
+
+local TextLabel_2 = Instance.new("TextLabel")
+
+
+local UICorner_2 = Instance.new("UICorner")
+
+
+local clickersim = Instance.new("ImageButton")
+
+
+local TextLabel_3 = Instance.new("TextLabel")
+
+
+local UICorner_3 = Instance.new("UICorner")
+
+
+local prison = Instance.new("ImageButton")
+
+
+local TextLabel_4 = Instance.new("TextLabel")
+
+
+local UICorner_4 = Instance.new("UICorner")
+
+
+local dinosim = Instance.new("ImageButton")
+
+
+local TextLabel_5 = Instance.new("TextLabel")
+
+
+local UICorner_5 = Instance.new("UICorner")
+
+
+local rebirth = Instance.new("ImageButton")
+
+
+local TextLabel_6 = Instance.new("TextLabel")
+
+
+local UICorner_6 = Instance.new("UICorner")
+
+
+local magnet = Instance.new("ImageButton")
+
+
+local TextLabel_7 = Instance.new("TextLabel")
+
+
+local UICorner_7 = Instance.new("UICorner")
+
+
+local bedwar = Instance.new("ImageButton")
+
+
+local TextLabel_8 = Instance.new("TextLabel")
+
+
+local UICorner_8 = Instance.new("UICorner")
+
+
+local arsenal = Instance.new("ImageButton")
+
+
+local TextLabel_9 = Instance.new("TextLabel")
+
+
+local UICorner_9 = Instance.new("UICorner")
+
+
+local anime = Instance.new("ImageButton")
+
+
+local TextLabel_10 = Instance.new("TextLabel")
+
+
+local UICorner_10 = Instance.new("UICorner")
+
+
+local UIGridLayout = Instance.new("UIGridLayout")
+
+
+local military = Instance.new("ImageButton")
+
+
+local TextLabel_11 = Instance.new("TextLabel")
+
+
+local UICorner_11 = Instance.new("UICorner")
+
+
+local skywars = Instance.new("ImageButton")
+
+
+local TextLabel_12 = Instance.new("TextLabel")
+
+
+local UICorner_12 = Instance.new("UICorner")
+
+
+local UICorner_13 = Instance.new("UICorner")
+
+
+local clear = Instance.new("ImageButton")
+
+
+local UICorner_14 = Instance.new("UICorner")
+
+
+local supportframe = Instance.new("Frame")
+
+
+local TextLabel_13 = Instance.new("TextLabel")
+
+
+local TextLabel_14 = Instance.new("TextLabel")
+
+
+local ImageLabel = Instance.new("ImageLabel")
+
+
+local open = Instance.new("Frame")
+
+
+local TextButton = Instance.new("TextButton")
+
+
+local UICorner_15 = Instance.new("UICorner")
+
+
+
+-- scripts used :>!
+
+
+
+local petxscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/ShinyTool.lua"))()
+
+
+local bloxfruitsscript =  loadstring(game:HttpGet("https://rawscripts.net/raw/Script-Blox-Fruits-Ability-Hub_990"))()
+
+
+local clickersimscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
+
+
+local prisonlifescript = loadstring(game:HttpGet("https://rawscripts.net/raw/Admin-Commands-(Open-Source)_774"))()
+
+
+local dinosimscript = loadstring(game:HttpGet("https://auth.kinghub.one/free/"))()
+
+
+local rebirthsimscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/broreallyplayingthisgame/whitelisted/main/RebirthChampionsX.lua"))()
+
+
+local magnetscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/MagnetSim2"))()
+
+
+local bedwarsscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"))()
+
+
+local arsenalscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors"))()
+
+
+local animefightersscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/TinyTask%20Hub/loader.lua"))()
+
+
+local skywarsscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/Cihonax/Loader.lua"))()
+
+
+local militaryscript = loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/Military_Tycoon.lua'))()
+
+
+
+-- end of scripts :>!
+
+
+
+dodohubopensource.Name = "dodohubopensource"
+
+
+dodohubopensource.Parent = game.CoreGui
+
+
+dodohubopensource.Draggable = true
+
+
+
+main.Name = "main"
+
+
+main.Parent = dodohubopensource
+
+
+main.BackgroundColor3 = Color3.fromRGB(115, 115, 115)
+
+
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+main.Position = UDim2.new(0.232664227, 0, 0.184890687, 0)
+
+
+main.Size = UDim2.new(0, 562, 0, 305)
+
+
+main.Visible = false
+
+
+main.Active = true
+
+
+main.Draggable = true
+
+
+
+name.Name = "name"
+
+
+name.Parent = main
+
+
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+name.BackgroundTransparency = 1.000
+
+
+name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+name.Size = UDim2.new(0, 569, 0, 26)
+
+
+name.Font = Enum.Font.FredokaOne
+
+
+name.Text = "Dodo Hub"
+
+
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+name.TextSize = 30.000
+
+
+name.TextStrokeTransparency = 0.500
+
+
+name.TextXAlignment = Enum.TextXAlignment.Left
+
+
+
+gameamount.Name = "gameamount"
+
+
+gameamount.Parent = main
+
+
+gameamount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+gameamount.BackgroundTransparency = 1.000
+
+
+gameamount.BorderColor3 = Color3.fromRGB(0, 0, 0)
+
+
+gameamount.Size = UDim2.new(0, 569, 0, 26)
+
+
+gameamount.Font = Enum.Font.FredokaOne
+
+
+gameamount.Text = "12 Games"
+
+
+gameamount.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+gameamount.TextSize = 30.000
+
+
+gameamount.TextStrokeTransparency = 0.500
+
+
+
+scriptselection.Name = "script selection"
+
+
+scriptselection.Parent = main
+
+
+scriptselection.Active = true
+
+
+scriptselection.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+
+
+scriptselection.Position = UDim2.new(0.0158172231, 0, 0.0852458999, 0)
+
+
+scriptselection.Size = UDim2.new(0, 548, 0, 268)
+
+
+
+petsimx.Name = "petsimx"
+
+
+petsimx.Parent = scriptselection
+
+
+petsimx.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+petsimx.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+petsimx.Size = UDim2.new(0, 103, 0, 101)
+
+
+petsimx.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+petsimx.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/ShinyTool.lua"))()
+
+
+end)
+
+
+
+TextLabel.Parent = petsimx
+
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel.BackgroundTransparency = 1.000
+
+
+TextLabel.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel.Font = Enum.Font.FredokaOne
+
+
+TextLabel.Text = "Pet Simulator X"
+
+
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel.TextScaled = true
+
+
+TextLabel.TextSize = 20.000
+
+
+TextLabel.TextStrokeTransparency = 0.000
+
+
+TextLabel.TextWrapped = true
+
+
+
+UICorner.Parent = petsimx
+
+
+
+bloxfruits.Name = "bloxfruits"
+
+
+bloxfruits.Parent = scriptselection
+
+
+bloxfruits.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+bloxfruits.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+bloxfruits.Size = UDim2.new(0, 103, 0, 101)
+
+
+bloxfruits.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+bloxfruits.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Script-Blox-Fruits-Ability-Hub_990"))()
+
+
+end)
+
+
+
+TextLabel_2.Parent = bloxfruits
+
+
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_2.BackgroundTransparency = 1.000
+
+
+TextLabel_2.Position = UDim2.new(0.0399999619, 0, 0.75, 0)
+
+
+TextLabel_2.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_2.Font = Enum.Font.FredokaOne
+
+
+TextLabel_2.Text = "Blox Fruits"
+
+
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_2.TextSize = 20.000
+
+
+TextLabel_2.TextStrokeTransparency = 0.000
+
+
+
+UICorner_2.Parent = bloxfruits
+
+
+
+clickersim.Name = "clicker sim"
+
+
+clickersim.Parent = scriptselection
+
+
+clickersim.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+clickersim.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+clickersim.Size = UDim2.new(0, 103, 0, 101)
+
+
+clickersim.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+clickersim.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
+
+
+end)
+
+
+
+TextLabel_3.Parent = clickersim
+
+
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_3.BackgroundTransparency = 1.000
+
+
+TextLabel_3.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel_3.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_3.Font = Enum.Font.FredokaOne
+
+
+TextLabel_3.Text = "Clicker Simulator"
+
+
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_3.TextScaled = true
+
+
+TextLabel_3.TextSize = 20.000
+
+
+TextLabel_3.TextStrokeTransparency = 0.000
+
+
+TextLabel_3.TextWrapped = true
+
+
+
+UICorner_3.Parent = clickersim
+
+
+
+prison.Name = "prison"
+
+
+prison.Parent = scriptselection
+
+
+prison.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+prison.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+prison.Size = UDim2.new(0, 103, 0, 101)
+
+
+prison.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+prison.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://rawscripts.net/raw/Admin-Commands-(Open-Source)_774"))()
+
+
+end)
+
+
+
+TextLabel_4.Parent = prison
+
+
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_4.BackgroundTransparency = 1.000
+
+
+TextLabel_4.Position = UDim2.new(0.0399999619, 0, 0.75, 0)
+
+
+TextLabel_4.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_4.Font = Enum.Font.FredokaOne
+
+
+TextLabel_4.Text = "Prison Life"
+
+
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_4.TextSize = 20.000
+
+
+TextLabel_4.TextStrokeTransparency = 0.000
+
+
+
+UICorner_4.Parent = prison
+
+
+
+dinosim.Name = "dino sim"
+
+
+dinosim.Parent = scriptselection
+
+
+dinosim.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+dinosim.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+dinosim.Size = UDim2.new(0, 103, 0, 101)
+
+
+dinosim.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+dinosim.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://auth.kinghub.one/free/"))()
+
+
+end)
+
+
+
+TextLabel_5.Parent = dinosim
+
+
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_5.BackgroundTransparency = 1.000
+
+
+TextLabel_5.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel_5.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_5.Font = Enum.Font.FredokaOne
+
+
+TextLabel_5.Text = "Dinosaur Simulator"
+
+
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_5.TextScaled = true
+
+
+TextLabel_5.TextSize = 20.000
+
+
+TextLabel_5.TextStrokeTransparency = 0.000
+
+
+TextLabel_5.TextWrapped = true
+
+
+
+UICorner_5.Parent = dinosim
+
+
+
+rebirth.Name = "rebirth"
+
+
+rebirth.Parent = scriptselection
+
+
+rebirth.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+rebirth.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+rebirth.Size = UDim2.new(0, 103, 0, 101)
+
+
+rebirth.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+rebirth.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/broreallyplayingthisgame/whitelisted/main/RebirthChampionsX.lua"))()
+
+
+end)
+
+
+
+TextLabel_6.Parent = rebirth
+
+
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_6.BackgroundTransparency = 1.000
+
+
+TextLabel_6.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel_6.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_6.Font = Enum.Font.FredokaOne
+
+
+TextLabel_6.Text = "Rebirth Champions X"
+
+
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_6.TextScaled = true
+
+
+TextLabel_6.TextSize = 20.000
+
+
+TextLabel_6.TextStrokeTransparency = 0.000
+
+
+TextLabel_6.TextWrapped = true
+
+
+
+UICorner_6.Parent = rebirth
+
+
+
+magnet.Name = "magnet"
+
+
+magnet.Parent = scriptselection
+
+
+magnet.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+magnet.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+magnet.Size = UDim2.new(0, 103, 0, 101)
+
+
+magnet.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+magnet.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/MagnetSim2"))()
+
+
+end)
+
+
+
+TextLabel_7.Parent = magnet
+
+
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_7.BackgroundTransparency = 1.000
+
+
+TextLabel_7.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel_7.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_7.Font = Enum.Font.FredokaOne
+
+
+TextLabel_7.Text = "Magnet Simulator"
+
+
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_7.TextScaled = true
+
+
+TextLabel_7.TextSize = 20.000
+
+
+TextLabel_7.TextStrokeTransparency = 0.000
+
+
+TextLabel_7.TextWrapped = true
+
+
+
+UICorner_7.Parent = magnet
+
+
+
+bedwar.Name = "bedwar"
+
+
+bedwar.Parent = scriptselection
+
+
+bedwar.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+bedwar.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+bedwar.Size = UDim2.new(0, 103, 0, 101)
+
+
+bedwar.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+bedwar.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"))()
+
+
+end)
+
+
+
+TextLabel_8.Parent = bedwar
+
+
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_8.BackgroundTransparency = 1.000
+
+
+TextLabel_8.Position = UDim2.new(0.0399999619, 0, 0.75, 0)
+
+
+TextLabel_8.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_8.Font = Enum.Font.FredokaOne
+
+
+TextLabel_8.Text = "Bedwars"
+
+
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_8.TextSize = 20.000
+
+
+TextLabel_8.TextStrokeTransparency = 0.000
+
+
+
+UICorner_8.Parent = bedwar
+
+
+
+arsenal.Name = "arsenal"
+
+
+arsenal.Parent = scriptselection
+
+
+arsenal.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+arsenal.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+arsenal.Size = UDim2.new(0, 103, 0, 101)
+
+
+arsenal.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+arsenal.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors"))()
+
+
+end)
+
+
+
+TextLabel_9.Parent = arsenal
+
+
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_9.BackgroundTransparency = 1.000
+
+
+TextLabel_9.Position = UDim2.new(0.0399999619, 0, 0.75, 0)
+
+
+TextLabel_9.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_9.Font = Enum.Font.FredokaOne
+
+
+TextLabel_9.Text = "Arsenal"
+
+
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_9.TextSize = 20.000
+
+
+TextLabel_9.TextStrokeTransparency = 0.000
+
+
+
+UICorner_9.Parent = arsenal
+
+
+
+anime.Name = "anime"
+
+
+anime.Parent = scriptselection
+
+
+anime.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+anime.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+anime.Size = UDim2.new(0, 103, 0, 101)
+
+
+anime.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+anime.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/TinyTask%20Hub/loader.lua"))()
+
+
+end)
+
+
+
+TextLabel_10.Parent = anime
+
+
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_10.BackgroundTransparency = 1.000
+
+
+TextLabel_10.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel_10.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_10.Font = Enum.Font.FredokaOne
+
+
+TextLabel_10.Text = "Anime Fighters Simulator"
+
+
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_10.TextScaled = true
+
+
+TextLabel_10.TextSize = 20.000
+
+
+TextLabel_10.TextStrokeTransparency = 0.000
+
+
+TextLabel_10.TextWrapped = true
+
+
+
+UICorner_10.Parent = anime
+
+
+
+UIGridLayout.Parent = scriptselection
+
+
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+
+
+military.Name = "military"
+
+
+military.Parent = scriptselection
+
+
+military.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+military.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+military.Size = UDim2.new(0, 103, 0, 101)
+
+
+military.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+military.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/Military_Tycoon.lua'))()
+
+
+end)
+
+
+
+TextLabel_11.Parent = military
+
+
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_11.BackgroundTransparency = 1.000
+
+
+TextLabel_11.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel_11.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_11.Font = Enum.Font.FredokaOne
+
+
+TextLabel_11.Text = "Military Tycoon"
+
+
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_11.TextScaled = true
+
+
+TextLabel_11.TextSize = 20.000
+
+
+TextLabel_11.TextStrokeTransparency = 0.000
+
+
+TextLabel_11.TextWrapped = true
+
+
+
+UICorner_11.Parent = military
+
+
+
+skywars.Name = "skywars"
+
+
+skywars.Parent = scriptselection
+
+
+skywars.BackgroundColor3 = Color3.fromRGB(176, 176, 176)
+
+
+skywars.Position = UDim2.new(0, 0, -3.98550469e-07, 0)
+
+
+skywars.Size = UDim2.new(0, 103, 0, 101)
+
+
+skywars.Image = "http://www.roblox.com/asset/?id=8253773978"
+
+
+skywars.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/Cihonax/Loader.lua"))()
+
+
+end)
+
+
+
+TextLabel_12.Parent = skywars
+
+
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_12.BackgroundTransparency = 1.000
+
+
+TextLabel_12.Position = UDim2.new(0.0399999619, 0, 0.689999998, 0)
+
+
+TextLabel_12.Size = UDim2.new(0, 96, 0, 31)
+
+
+TextLabel_12.Font = Enum.Font.FredokaOne
+
+
+TextLabel_12.Text = "Skywars"
+
+
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_12.TextSize = 20.000
+
+
+TextLabel_12.TextStrokeTransparency = 0.000
+
+
+TextLabel_12.TextWrapped = true
+
+
+
+UICorner_12.Parent = skywars
+
+
+
+UICorner_13.Parent = scriptselection
+
+
+
+clear.Name = "clear"
+
+
+clear.Parent = main
+
+
+clear.BackgroundTransparency = 1.000
+
+
+clear.LayoutOrder = 3
+
+
+clear.Position = UDim2.new(0.941084146, 0, 0.00163934426, 0)
+
+
+clear.Size = UDim2.new(0, 33, 0, 25)
+
+
+clear.ZIndex = 2
+
+
+clear.Image = "rbxassetid://3926305904"
+
+
+clear.ImageColor3 = Color3.fromRGB(255, 0, 0)
+
+
+clear.ImageRectOffset = Vector2.new(924, 724)
+
+
+clear.ImageRectSize = Vector2.new(36, 36)
+
+
+clear.MouseButton1Down:Connect(function()
+
+
+	main.Visible = false
+
+
+	TextButton.Visible = true
+
+
+end)
+
+
+
+UICorner_14.Parent = main
+
+
+
+supportframe.Name = "supportframe"
+
+
+supportframe.Parent = dodohubopensource
+
+
+supportframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+supportframe.BackgroundTransparency = 1.000
+
+
+supportframe.Position = UDim2.new(0.267335773, 0, 0.341948301, 0)
+
+
+supportframe.Size = UDim2.new(0, 100, 0, 100)
+
+
+supportframe.Visible = false
+
+
+
+TextLabel_13.Parent = supportframe
+
+
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_13.BackgroundTransparency = 1.000
+
+
+TextLabel_13.Position = UDim2.new(0.0400000215, 0, 0.319999993, 0)
+
+
+TextLabel_13.Size = UDim2.new(0, 200, 0, 50)
+
+
+TextLabel_13.Font = Enum.Font.DenkOne
+
+
+TextLabel_13.Text = "We Stand"
+
+
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TextLabel_13.TextSize = 30.000
+
+
+TextLabel_13.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_13.TextStrokeTransparency = 0.500
+
+
+
+TextLabel_14.Parent = supportframe
+
+
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_14.BackgroundTransparency = 1.000
+
+
+TextLabel_14.Position = UDim2.new(3.05000019, 0, 0.319999993, 0)
+
+
+TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
+
+
+TextLabel_14.Font = Enum.Font.DenkOne
+
+
+TextLabel_14.Text = "With Ukraine!"
+
+
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TextLabel_14.TextSize = 30.000
+
+
+TextLabel_14.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_14.TextStrokeTransparency = 0.500
+
+
+
+ImageLabel.Parent = supportframe
+
+
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+ImageLabel.BorderSizePixel = 0
+
+
+ImageLabel.Position = UDim2.new(1.65999997, 0, 0.0700000003, 0)
+
+
+ImageLabel.Size = UDim2.new(0, 148, 0, 100)
+
+
+ImageLabel.Image = "http://www.roblox.com/asset/?id=2245756618"
+
+
+
+open.Name = "open"
+
+
+open.Parent = dodohubopensource
+
+
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+open.BackgroundTransparency = 1.000
+
+
+open.Size = UDim2.new(0, 100, 0, 100)
+
+
+
+TextButton.Parent = open
+
+
+TextButton.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+
+
+TextButton.BorderColor3 = Color3.fromRGB(225, 255, 26)
+
+
+TextButton.Position = UDim2.new(-0.0799999982, 0, 2.26000023, 0)
+
+
+TextButton.Size = UDim2.new(0, 108, 0, 37)
+
+
+TextButton.Font = Enum.Font.DenkOne
+
+
+TextButton.Text = "OPEN"
+
+
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextButton.TextSize = 25.000
+
+
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 236, 25)
+
+
+TextButton.TextStrokeTransparency = 0.000
+
+
+TextButton.MouseButton1Down:Connect(function()
+
+
+	supportframe.Visible = true
+
+
+	wait(3)
+
+
+	supportframe.Visible = false
+
+
+	main.Visible = true
+
+
+	TextButton.Visible = false
+
+
+end)
+
+
+
+UICorner_15.Parent = TextButton
