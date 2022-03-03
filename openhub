@@ -58,7 +58,6 @@ local UICorner_15 = Instance.new("UICorner")
 
 dodohubopensource.Name = "dodohubopensource"
 dodohubopensource.Parent = game.CoreGui
-dodohubopensource.Draggable = true
 
 main.Name = "main"
 main.Parent = dodohubopensource
