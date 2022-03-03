@@ -158,52 +158,6 @@ local TextButton = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
 
 
-
--- scripts used :>!
-
-
-
-local petxscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/ShinyTool.lua"))()
-
-
-local bloxfruitsscript =  loadstring(game:HttpGet("https://rawscripts.net/raw/Script-Blox-Fruits-Ability-Hub_990"))()
-
-
-local clickersimscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
-
-
-local prisonlifescript = loadstring(game:HttpGet("https://rawscripts.net/raw/Admin-Commands-(Open-Source)_774"))()
-
-
-local dinosimscript = loadstring(game:HttpGet("https://auth.kinghub.one/free/"))()
-
-
-local rebirthsimscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/broreallyplayingthisgame/whitelisted/main/RebirthChampionsX.lua"))()
-
-
-local magnetscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/MagnetSim2"))()
-
-
-local bedwarsscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"))()
-
-
-local arsenalscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors"))()
-
-
-local animefightersscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/TinyTask%20Hub/loader.lua"))()
-
-
-local skywarsscript = loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/Cihonax/Loader.lua"))()
-
-
-local militaryscript = loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/Military_Tycoon.lua'))()
-
-
-
--- end of scripts :>!
-
-
-
 dodohubopensource.Name = "dodohubopensource"
 
 
